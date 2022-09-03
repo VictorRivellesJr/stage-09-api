@@ -1,7 +1,7 @@
 import Router from "express"
 import multer from "multer"
 import { MULTER } from "../configs/upload.js"
-import { UsersController } from "../controllers/usersController.js"
+import { UsersController } from "../controllers/UsersController.js"
 import { UsersAvatarController } from "../controllers/UsersAvatarController.js"
 import { ensureAuthenticated } from "../middlewares/ensureAuthenticated.js"
 
